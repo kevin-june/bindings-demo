@@ -1,0 +1,10 @@
+[package]
+name = "jos-foo-sys"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+jos-foo-build = {path = "../jos-foo-build"}
+
+[build-dependencies]
+bindgen = "0.59.2"
